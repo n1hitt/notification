@@ -195,7 +195,9 @@ do
             TextStrokeColor3 = self.TextStrokeColor,
             TextStrokeTransparency = self.TextStrokeTransparency,
             TextXAlignment = Enum.TextXAlignment.Center,
-            TextYAlignment = Enum.TextYAlignment.Center
+            TextYAlignment = Enum.TextYAlignment.Center,
+            RichText = true, -- Enable RichText support
+            TextScaled = false
         })
 
         task.delay(self.NotificationLifetime, function()
